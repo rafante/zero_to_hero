@@ -1,2 +1,8 @@
+image: teste
+
 tasks:
   - init: sudo apt install xsel
+
+ports:
+  - port: 8000
+    onOpen: open-preview
